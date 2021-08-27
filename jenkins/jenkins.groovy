@@ -1,10 +1,10 @@
 pipeline {
-    agent "DevelopmentBuild"
+    agent {'DevelopmentBuild'}
     stages {
         stage('Build') { 
             steps {
                 sh 'echo HelloWorld'
-                
+
             }
         }
         
